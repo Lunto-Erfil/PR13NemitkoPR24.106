@@ -18,10 +18,9 @@ public class MainActivity extends AppCompatActivity {
     private boolean isStarted = false;
     private boolean isFinished = false;
 
-    // true = на двоих, false = на одного
     private boolean isTwoPlayerMode = false;
 
-    // Смещение машин относительно старта
+
     private float carBlueOffset = 0f;
     private float carGreenOffset = 0f;
     private float moveStepPx;
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final float MOVE_STEP_DP = 25f;
     private static final float START_MARGIN_DP = 25f;
-    private static final int AI_MOVE_DELAY_MS = 180;
+    private static final int AI_MOVE_DELAY_MS = 250;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
